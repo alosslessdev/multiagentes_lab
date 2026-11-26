@@ -28,6 +28,10 @@ class TestTareas(unittest.TestCase):
         with self.assertRaises(ValueError):
             agregar([], "x", "urgente")
 
+    def test_prioridad_no_texto(self):
+        with self.assertRaises(ValueError):
+            agregar([], "x", None)
+
     def test_filtrar_por_prioridad(self):
         tareas = []
         agregar(tareas, "A", "alta")

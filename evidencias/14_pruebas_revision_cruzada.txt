@@ -1,0 +1,15 @@
+test_agregar (test_tareas.TestTareas.test_agregar) ... ok
+test_filtrar_por_prioridad (test_tareas.TestTareas.test_filtrar_por_prioridad) ... ok
+test_filtrar_prioridad_invalida (test_tareas.TestTareas.test_filtrar_prioridad_invalida) ... ok
+test_prioridad_invalida (test_tareas.TestTareas.test_prioridad_invalida) ... ok
+test_prioridad_no_texto (test_tareas.TestTareas.test_prioridad_no_texto) ... ok
+test_prioridad_normaliza_mayusculas_y_espacios (test_tareas.TestTareas.test_prioridad_normaliza_mayusculas_y_espacios) ... ok
+test_prioridad_por_defecto_es_media (test_tareas.TestTareas.test_prioridad_por_defecto_es_media) ... ok
+test_prioridad_valida (test_tareas.TestTareas.test_prioridad_valida) ... ok
+test_regresion_contrato_antiguo (test_tareas.TestTareas.test_regresion_contrato_antiguo) ... ok
+test_titulo_vacio (test_tareas.TestTareas.test_titulo_vacio) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.001s
+
+OK
