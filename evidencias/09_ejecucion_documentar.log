@@ -1,0 +1,5 @@
+Modo (proponer/revisar/documentar): Modelo: qwen2.5-coder:3b
+[11/25/26 21:37:25] INFO     HTTP Request: POST                  _client.py:1025
+                             http://127.0.0.1:11435/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+Revise evidencias/04_readme_propuesta.md (no se escribe README.md).
