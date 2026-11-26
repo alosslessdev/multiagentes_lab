@@ -56,9 +56,9 @@ fue aplicado a mano a partir de `04_readme_propuesta.md`.
 python -m unittest discover -s tests -v
 ```
 
-9 pruebas: 2 de base intactas y 7 nuevas (valor por defecto, prioridad válida,
-normalización, prioridad inválida, filtro, filtro inválido y regresión del
-contrato antiguo).
+10 pruebas: 2 de base intactas y 8 nuevas (valor por defecto, prioridad válida,
+normalización, prioridad inválida, prioridad no textual, filtro, filtro
+inválido y regresión del contrato antiguo).
 
 ## CI y entrega
 

@@ -16,8 +16,8 @@ Salida completa en `evidencias/00_llamada_mcp.txt` y `evidencias/00_requisito_mc
 
 - `tareas.py`: `PRIORIDADES`, `_normalizar_prioridad`, `agregar(..., prioridad="media")`,
   `filtrar_por_prioridad`.
-- `tests/test_tareas.py`: 9 pruebas (2 de base intactas + 7 nuevas: prioridad válida,
-  valor por defecto, normalización, inválida, filtro, filtro inválido, regresión de contrato).
+- `tests/test_tareas.py`: 10 pruebas (2 de base intactas + 8 nuevas: prioridad válida, valor por defecto,
+  normalización, inválida, no textual, filtro, filtro inválido, regresión).
 - `mcp_requisitos.py`, `verificar_mcp.py`, `multiagentes.py` (Planificador →
   Implementador → Revisor → Documentador; la IA solo escribe en `evidencias/`).
 - `.github/workflows/ci.yml`: job `test` en PR/push y job `delivery` (artefacto
@@ -31,7 +31,7 @@ Salida completa en `evidencias/00_llamada_mcp.txt` y `evidencias/00_requisito_mc
 - `evidencias/02_propuesta.md` — Implementador.
 - `evidencias/03_revision.md` — Revisor (con resultado de pruebas).
 - `evidencias/04_readme_propuesta.md` — Documentador.
-- `evidencias/05_pruebas_despues.txt` — 9 pruebas OK.
+- `evidencias/05_pruebas_despues.txt` — pruebas OK tras aplicar el cambio.
 - `evidencias/06_ejecucion_proponer.log` — ejecución del orquestador.
 - `evidencias/09_reflexion.md` — respuestas y reflexión.
 
