@@ -1,0 +1,3 @@
+tools: requisito_prioridad
+
+Agregar prioridad alta, media o baja; por defecto media. Rechazar otra prioridad con ValueError. Crear filtrar_por_prioridad(tareas, prioridad). Conservar agregar(tareas, titulo) y pendientes(tareas). Agregar pruebas válidas, inválidas y de regresión.
