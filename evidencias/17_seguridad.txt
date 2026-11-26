@@ -1,0 +1,45 @@
+# Control mínimo de seguridad (paso 20)
+
+## Búsqueda de secretos/credenciales
+evidencias/07_pr_descripcion.md:63:- [x] Sin secretos, tokens ni datos personales
+evidencias/15_reflexion.md:80:comandos, acceso a secretos, tokens o datos personales, y cualquier capacidad de
+evidencias/15_reflexion.md:81:despliegue. Al `GITHUB_TOKEN`: `contents: write`, `actions: write`, `packages:
+evidencias/15_reflexion.md:82:write`, `deployments`, `id-token` o administración; el workflow declara solo
+
+## Archivos versionados
+.github/workflows/ci.yml
+.gitignore
+README.md
+evidencias/00_baseline.txt
+evidencias/00_llamada_mcp.txt
+evidencias/00_requisito_mcp.txt
+evidencias/01_plan.md
+evidencias/02_propuesta.md
+evidencias/03_revision.md
+evidencias/04_readme_propuesta.md
+evidencias/05_pruebas_despues.txt
+evidencias/06_ejecucion_proponer.log
+evidencias/07_pr_descripcion.md
+evidencias/08_ejecucion_revisar.log
+evidencias/09_ejecucion_documentar.log
+evidencias/10_diff.txt
+evidencias/11_fallo_intencional_local.txt
+evidencias/12_fallo_intencional_ci.txt
+evidencias/13_pruebas_restauradas.txt
+evidencias/14_pruebas_revision_cruzada.txt
+evidencias/15_reflexion.md
+evidencias/16_entrega.md
+mcp_requisitos.py
+multiagentes.py
+tareas.py
+tests/test_tareas.py
+verificar_mcp.py
+
+## Comandos peligrosos en el código Python
+multiagentes.py:14:import subprocess
+multiagentes.py:84:    pruebas = subprocess.run(
+
+## Permisos del workflow
+permissions:
+  contents: read
+

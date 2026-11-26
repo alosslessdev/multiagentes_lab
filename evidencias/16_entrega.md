@@ -21,6 +21,7 @@ Prueba local del mismo fallo: `evidencias/11_fallo_intencional_local.txt`.
 ## Entrega tras el merge
 
 Run de `main`: 45744010172 — `test` success, `delivery` success.
+Run posterior de documentación: 45744231030 — `test` success, `delivery` success.
 Artefacto `paquete-lab` (id 15082571587) descargado a `artefacto/tareas.py`:
 
 ```
@@ -34,3 +35,6 @@ al `tareas.py` de `main` (mismo tamaño y hash).
 **Empaquetar no es desplegar**: el job `delivery` no publica en ningún entorno,
 solo genera el artefacto descargable. No hay URL de producción ni credenciales
 involucradas.
+
+Control de seguridad previo a publicar: `evidencias/17_seguridad.txt`
+(`subprocess.run` solo ejecuta el comando fijo de pruebas, nunca texto del modelo).
