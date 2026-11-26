@@ -3,8 +3,14 @@ PRIORIDAD_POR_DEFECTO = "media"
 
 
 def _normalizar_prioridad(prioridad):
-    # PRUEBA DE RECHAZO: validación desactivada a propósito.
-    return prioridad.strip().lower() if isinstance(prioridad, str) else prioridad
+    if not isinstance(prioridad, str):
+        raise ValueError(f"Prioridad inválida: {prioridad!r}")
+    valor = prioridad.strip().lower()
+    if valor not in PRIORIDADES:
+        raise ValueError(
+            f"Prioridad inválida: {prioridad!r}. Use: {', '.join(PRIORIDADES)}"
+        )
+    return valor
 
 
 def agregar(tareas, titulo, prioridad=PRIORIDAD_POR_DEFECTO):

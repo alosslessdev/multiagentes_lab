@@ -1,0 +1,44 @@
+test	Run python -m unittest discover -s tests -v	﻿2026-11-26T02:38:47.8926056Z ##[group]Run python -m unittest discover -s tests -v
+test	Run python -m unittest discover -s tests -v	2026-11-26T02:38:47.8927487Z ^[[36;1mpython -m unittest discover -s tests -v^[[0m
+test	Run python -m unittest discover -s tests -v	2026-11-26T02:38:47.8992704Z shell: /usr/bin/bash -e {0}
+test	Run python -m unittest discover -s tests -v	2026-11-26T02:38:47.8993393Z env:
+test	Run python -m unittest discover -s tests -v	2026-11-26T02:38:47.8993907Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.16/x64
+test	Run python -m unittest discover -s tests -v	2026-11-26T02:38:47.8994597Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.16/x64/lib/pkgconfig
+test	Run python -m unittest discover -s tests -v	2026-11-26T02:38:47.8995277Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.16/x64
+test	Run python -m unittest discover -s tests -v	2026-11-26T02:38:47.8995853Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.16/x64
+test	Run python -m unittest discover -s tests -v	2026-11-26T02:38:47.8996592Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.16/x64
+test	Run python -m unittest discover -s tests -v	2026-11-26T02:38:47.8997195Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.16/x64/lib
+test	Run python -m unittest discover -s tests -v	2026-11-26T02:38:47.8997700Z ##[endgroup]
+test	Run python -m unittest discover -s tests -v	2026-11-26T02:38:48.0789418Z test_agregar (test_tareas.TestTareas.test_agregar) ... ok
+test	Run python -m unittest discover -s tests -v	2026-11-26T02:38:48.0791513Z test_filtrar_por_prioridad (test_tareas.TestTareas.test_filtrar_por_prioridad) ... ok
+test	Run python -m unittest discover -s tests -v	2026-11-26T02:38:48.0793853Z test_filtrar_prioridad_invalida (test_tareas.TestTareas.test_filtrar_prioridad_invalida) ... FAIL
+test	Run python -m unittest discover -s tests -v	2026-11-26T02:38:48.0795570Z test_prioridad_invalida (test_tareas.TestTareas.test_prioridad_invalida) ... FAIL
+test	Run python -m unittest discover -s tests -v	2026-11-26T02:38:48.0797850Z test_prioridad_normaliza_mayusculas_y_espacios (test_tareas.TestTareas.test_prioridad_normaliza_mayusculas_y_espacios) ... ok
+test	Run python -m unittest discover -s tests -v	2026-11-26T02:38:48.0799722Z test_prioridad_por_defecto_es_media (test_tareas.TestTareas.test_prioridad_por_defecto_es_media) ... ok
+test	Run python -m unittest discover -s tests -v	2026-11-26T02:38:48.0801263Z test_prioridad_valida (test_tareas.TestTareas.test_prioridad_valida) ... ok
+test	Run python -m unittest discover -s tests -v	2026-11-26T02:38:48.0802662Z test_regresion_contrato_antiguo (test_tareas.TestTareas.test_regresion_contrato_antiguo) ... ok
+test	Run python -m unittest discover -s tests -v	2026-11-26T02:38:48.0804024Z test_titulo_vacio (test_tareas.TestTareas.test_titulo_vacio) ... ok
+test	Run python -m unittest discover -s tests -v	2026-11-26T02:38:48.0804798Z 
+test	Run python -m unittest discover -s tests -v	2026-11-26T02:38:48.0805258Z ======================================================================
+test	Run python -m unittest discover -s tests -v	2026-11-26T02:38:48.0806758Z FAIL: test_filtrar_prioridad_invalida (test_tareas.TestTareas.test_filtrar_prioridad_invalida)
+test	Run python -m unittest discover -s tests -v	2026-11-26T02:38:48.0808305Z ----------------------------------------------------------------------
+test	Run python -m unittest discover -s tests -v	2026-11-26T02:38:48.0809414Z Traceback (most recent call last):
+test	Run python -m unittest discover -s tests -v	2026-11-26T02:38:48.0817907Z   File "/home/runner/work/multiagentes_lab/multiagentes_lab/tests/test_tareas.py", line 41, in test_filtrar_prioridad_invalida
+test	Run python -m unittest discover -s tests -v	2026-11-26T02:38:48.0819766Z     with self.assertRaises(ValueError):
+test	Run python -m unittest discover -s tests -v	2026-11-26T02:38:48.0820712Z          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+test	Run python -m unittest discover -s tests -v	2026-11-26T02:38:48.0821644Z AssertionError: ValueError not raised
+test	Run python -m unittest discover -s tests -v	2026-11-26T02:38:48.0822310Z 
+test	Run python -m unittest discover -s tests -v	2026-11-26T02:38:48.0822764Z ======================================================================
+test	Run python -m unittest discover -s tests -v	2026-11-26T02:38:48.0824031Z FAIL: test_prioridad_invalida (test_tareas.TestTareas.test_prioridad_invalida)
+test	Run python -m unittest discover -s tests -v	2026-11-26T02:38:48.0825275Z ----------------------------------------------------------------------
+test	Run python -m unittest discover -s tests -v	2026-11-26T02:38:48.0826274Z Traceback (most recent call last):
+test	Run python -m unittest discover -s tests -v	2026-11-26T02:38:48.0827887Z   File "/home/runner/work/multiagentes_lab/multiagentes_lab/tests/test_tareas.py", line 28, in test_prioridad_invalida
+test	Run python -m unittest discover -s tests -v	2026-11-26T02:38:48.0829345Z     with self.assertRaises(ValueError):
+test	Run python -m unittest discover -s tests -v	2026-11-26T02:38:48.0830197Z          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+test	Run python -m unittest discover -s tests -v	2026-11-26T02:38:48.0831040Z AssertionError: ValueError not raised
+test	Run python -m unittest discover -s tests -v	2026-11-26T02:38:48.0831694Z 
+test	Run python -m unittest discover -s tests -v	2026-11-26T02:38:48.0832216Z ----------------------------------------------------------------------
+test	Run python -m unittest discover -s tests -v	2026-11-26T02:38:48.0833239Z Ran 9 tests in 0.001s
+test	Run python -m unittest discover -s tests -v	2026-11-26T02:38:48.0833784Z 
+test	Run python -m unittest discover -s tests -v	2026-11-26T02:38:48.0834190Z FAILED (failures=2)
+test	Run python -m unittest discover -s tests -v	2026-11-26T02:38:48.0879839Z ##[error]Process completed with exit code 1.
