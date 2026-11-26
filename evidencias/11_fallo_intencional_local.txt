@@ -1,0 +1,32 @@
+test_agregar (test_tareas.TestTareas.test_agregar) ... ok
+test_filtrar_por_prioridad (test_tareas.TestTareas.test_filtrar_por_prioridad) ... ok
+test_filtrar_prioridad_invalida (test_tareas.TestTareas.test_filtrar_prioridad_invalida) ... FAIL
+test_prioridad_invalida (test_tareas.TestTareas.test_prioridad_invalida) ... FAIL
+test_prioridad_normaliza_mayusculas_y_espacios (test_tareas.TestTareas.test_prioridad_normaliza_mayusculas_y_espacios) ... ok
+test_prioridad_por_defecto_es_media (test_tareas.TestTareas.test_prioridad_por_defecto_es_media) ... ok
+test_prioridad_valida (test_tareas.TestTareas.test_prioridad_valida) ... ok
+test_regresion_contrato_antiguo (test_tareas.TestTareas.test_regresion_contrato_antiguo) ... ok
+test_titulo_vacio (test_tareas.TestTareas.test_titulo_vacio) ... ok
+
+======================================================================
+FAIL: test_filtrar_prioridad_invalida (test_tareas.TestTareas.test_filtrar_prioridad_invalida)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/asdf/Downloads/multiagentes_lab/tests/test_tareas.py", line 41, in test_filtrar_prioridad_invalida
+    with self.assertRaises(ValueError):
+         ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_prioridad_invalida (test_tareas.TestTareas.test_prioridad_invalida)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/asdf/Downloads/multiagentes_lab/tests/test_tareas.py", line 28, in test_prioridad_invalida
+    with self.assertRaises(ValueError):
+         ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.001s
+
+FAILED (failures=2)
