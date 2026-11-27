@@ -1,6 +1,6 @@
 # Evidencia de PR, CI y entrega
 
-- Repositorio (privado): https://github.com/alosslessdev/multiagentes_lab
+- Repositorio (público desde 2026-11-27): https://github.com/alosslessdev/multiagentes_lab
 - PR #1: https://github.com/alosslessdev/multiagentes_lab/pull/1 — **MERGED**
   (merge commit `666affeb355421da0f1c358a51752600a63727c4`).
 - Comentario de revisión cruzada:
